@@ -6,7 +6,7 @@ function Header() {
   const {extended, setExtended} = useGeminiContext()
 
   return (
-    <div className={`px-5 py-4 justify-between absolute top-0 ${extended ? 'left-48' : 'left-19'} duration-150 right-0  items-center flex-row inline-flex z-6 flex-wrap`}>
+    <div className={`header px-5 py-4 justify-between absolute top-0 ${extended ? 'left-58' : 'left-19'} duration-150 right-0  items-center flex-row inline-flex z-6 flex-wrap`}>
       <div className='flex gap-2.5 w-max px-2 py-2 rounded-xl hover:bg-[rgb(229,234,241)] cursor-pointer duration-100 '>
         <div className='flex flex-col justify-start items-start'>
           <p className='text-xl'>Gemini</p>
@@ -21,10 +21,10 @@ function Header() {
           <img src={geminiLogo} className='mr-1.5 inline-block w-3 h-3' />
           <p className='inline-block text-black text-xs'>Try Gemini Advanced</p>
         </button>
-        <button className='w-10 h-10 bg-transparent rounded-full flex justify-center items-center duration-150 hover:bg-[rgb(229,234,241)] cursor-pointer'>
+        <button className='w-10 h-10 bg-transparent rounded-full flex justify-center items-center duration-150 hover:bg-[rgb(229,234,241)] cursor-pointer' title='Files in this chat'>
           <i className='bx bxl-stack-overflow text-2xl'></i>
         </button>
-        <button className='w-10 h-10 bg-transparent rounded-full flex justify-center items-center duration-150 hover:bg-[rgb(229,234,241)] cursor-pointer'>
+        <button className='w-10 h-10 bg-transparent rounded-full flex justify-center items-center duration-150 hover:bg-[rgb(229,234,241)] cursor-pointer' title='Google Apps'>
           <i className='bx bxs-grid text-2xl'></i>
         </button>
         <button className=' bg-transparent rounded-full flex justify-center items-center cursor-pointer'>

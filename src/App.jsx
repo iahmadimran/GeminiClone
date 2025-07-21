@@ -28,7 +28,7 @@ function App() {
         <div className="result-div flex-1 overflow-y-auto mt-20 px-6 py-8">
           {!showResult ? (
             <div className="text-transparent bg-gradient-to-r from-blue-500 to-red-600 bg-clip-text text-4xl font-semibold text-center mt-20">
-              Hello, Developer <br /> How can I assist you today?
+              Hello, Developer <br /> How can I help you today?
             </div>
           ) : (
             <div className="flex flex-col items-center gap-6">
